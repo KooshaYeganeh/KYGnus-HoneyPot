@@ -36,8 +36,205 @@ int main(){
 					cout << "command Not Found" << endl;
 				}
 			}
-		}
-		else if (command == "exit"){
+		}else if( (command == "cd /dev") || (command == "cd /dev/")){
+			while(true){
+				string dev_command;
+				cout << "[root@MyServer]/dev# ";
+				getline(cin,dev_command);
+				if (dev_command == "pwd"){
+					cout << "/dev" << endl;
+				}else if (dev_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /bin") || (command == "cd /bin/")){
+			while(true){
+				string bin_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,bin_command);
+				if (bin_command == "pwd"){
+					cout << "/bin" << endl;
+				}else if (bin_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /etc") || (command == "cd /etc/")){
+			while(true){
+				string etc_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,etc_command);
+				if (etc_command == "pwd"){
+					cout << "/etc" << endl;
+				}else if (etc_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /lib") || (command == "cd /lib/")){
+			while(true){
+				string lib_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,lib_command);
+				if (lib_command == "pwd"){
+					cout << "/lib" << endl;
+				}else if (lib_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /mnt") || (command == "cd /mnt/")){
+			while(true){
+				string mnt_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,mnt_command);
+				if (mnt_command == "pwd"){
+					cout << "/mnt" << endl;
+				}else if (mnt_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+
+		}else if( (command == "cd /opt") || (command == "cd /opt/")){
+			while(true){
+				string opt_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,opt_command);
+				if (opt_command == "pwd"){
+					cout << "/opt" << endl;
+				}else if (opt_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /tmp") || (command == "cd /tmp/")){
+			while(true){
+				string tmp_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,tmp_command);
+				if (tmp_command == "pwd"){
+					cout << "/etc" << endl;
+				}else if (tmp_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /home") || (command == "cd /home/")){
+			while(true){
+				string home_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,home_command);
+				if (home_command == "pwd"){
+					cout << "/home" << endl;
+				}else if (home_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /lib64") || (command == "cd /lib64/")){
+			while(true){
+				string lib64_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,lib64_command);
+				if (lib64_command == "pwd"){
+					cout << "/lib64" << endl;
+				}else if (lib64_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /media") || (command == "cd /media/")){
+			while(true){
+				string media_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,media_command);
+				if (media_command == "pwd"){
+					cout << "/media" << endl;
+				}else if (media_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /sbin") || (command == "cd /sbin/")){
+			while(true){
+				string sbin_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,sbin_command);
+				if (sbin_command == "pwd"){
+					cout << "/sbin" << endl;
+				}else if (sbin_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /sys") || (command == "cd /sys/")){
+			while(true){
+				string sys_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,sys_command);
+				if (sys_command == "pwd"){
+					cout << "/sys" << endl;
+				}else if (sys_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /usr") || (command == "cd /usr/")){
+			while(true){
+				string usr_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,usr_command);
+				if (usr_command == "pwd"){
+					cout << "/usr" << endl;
+				}else if (usr_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+		}else if( (command == "cd /proc") || (command == "cd /proc/")){
+			while(true){
+				string proc_command;
+				cout << "[root@MyServer]/# ";
+				getline(cin,proc_command);
+				if (proc_command == "pwd"){
+					cout << "/proc" << endl;
+				}else if (proc_command == "exit"){
+					exit (1);
+				}
+				else{
+					cout << "command Not Found" << endl;
+				}
+			}
+
+		}else if (command == "exit"){
 			 exit (1);
 
 		}else{

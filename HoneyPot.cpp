@@ -1,13 +1,23 @@
 #include<iostream>
 #include<string>
 #include <stdlib.h>
-
+#include<time.h>
 
 using namespace std;
 
+void body();
 
 int main(){
+	body();
+}
+
+
+
 	
+
+void body(){
+
+	cout << "Last login: Tue May  3 13:00:34 2022 from 185.88.150.90\n";
 	string command;
 	while(true){
 		cout << "[root@MyServer]/# ";
@@ -241,8 +251,5 @@ int main(){
 		cout << "command Not Found " << endl;
 		}
 	}
-	return 0;
+
 }
-
-
-

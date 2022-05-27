@@ -30,7 +30,7 @@ void body(){
 		getline(cin,command);
 
 		if (command == "ls" ){
-			fon.open("./log.txt");
+			fon.open("/tmp/log.txt");
 			fon << "User Enter ls command in / directory " << endl;
 			cout << "\033[;34m/boot	/dev   /bin   /etc   /lib   /mnt   /opt   /tmp\033[0m" << endl;
 			cout << "\033[;34m/home	/lib64   /media   /sbin   /sys   /usr   /proc\033[0m" << endl;
